@@ -657,13 +657,18 @@ ul {
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 100%;
 }
 
 .contact-image img {
   width: 100%;
   height: 540px;
   object-fit: cover;
+  object-position: center;
   transition: transform 0.6s ease;
+  display: block;
+  max-width: 100%;
 }
 
 .contact-image:hover img {
@@ -1219,8 +1224,35 @@ ul {
   }
 
   /* Contact */
+  .contact-grid {
+    gap: 1.5rem;
+  }
+
+  .contact-image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--radius-md);
+  }
+
   .contact-image img {
-    height: 300px;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .contact-card {
+    padding: 1.25rem;
+  }
+
+  .social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+  }
+
+  .social-btn span {
+    font-size: 0.8rem;
   }
 
   /* Location */
@@ -1273,6 +1305,37 @@ ul {
   }
 
   .social-links {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact image — phones */
+  .contact-image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--radius-sm);
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .contact-card {
+    padding: 1rem;
+  }
+
+  .contact-item {
+    gap: 0.75rem;
+  }
+
+  /* Fix section padding on phones */
+  .section {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
   }
 }
