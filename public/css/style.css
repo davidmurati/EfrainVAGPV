@@ -240,12 +240,12 @@ ul {
 }
 
 .logo-img {
-  width: 56px;
   height: 42px;
+  width: auto;
   object-fit: contain;
   border-radius: 8px;
   border: 2px solid var(--orange);
-  padding: 3px;
+  padding: 0;
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -1077,12 +1077,12 @@ ul {
 }
 
 .footer-brand .footer-logo {
-  width: 70px;
   height: 52px;
+  width: auto;
   object-fit: contain;
   border-radius: 10px;
   border: 2px solid var(--orange);
-  padding: 4px;
+  padding: 0;
   margin-bottom: 1rem;
   background: rgba(255, 255, 255, 0.08);
 }
