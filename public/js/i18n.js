@@ -118,7 +118,7 @@ const translations = {
     prop_badge: 'Our purpose',
     prop_label: 'Why we exist',
     prop_title: 'Our <span class="gradient-text">Purpose</span>',
-    prop_text1: 'At AGPV Economic Advisors C.A., our purpose is to transform economic complexity into strategic opportunities for companies and individuals making sound financial and economic decisions, with accurate and timely information.',
+    prop_text1: 'At AGPV Asesores Económicos, C.A., our purpose is to transform economic complexity into strategic opportunities for companies and individuals making sound financial and economic decisions, with accurate and timely information.',
     prop_text2: 'We believe in transparency, excellence, and commitment to every client. We work to generate real value, accompanying you at every stage of your growth with tailored solutions and high-level advisory services.',
     val_integ: 'Integrity',
     val_excel: 'Excellence',
@@ -142,7 +142,7 @@ const translations = {
     serv_hero: 'Experts at your service',
     serv1_title: 'High-level economic consulting',
     serv1_desc: 'Market analysis, economic projections, and strategies for decision making.',
-    serv2_title: 'Sector intelligence',
+    serv2_title: 'Market Intelligence',
     serv2_desc: 'Economic studies for investment decisions.',
     serv3_title: 'Critical monitoring',
     serv3_desc: 'Exclusive reports: <br> What the market doesn\'t know yet, you receive first',
@@ -157,7 +157,7 @@ const translations = {
     ci_social: 'Follow Us on Social Media',
 
     // Formulario
-    form_title: 'Request a Consultation',
+    form_title: 'Inquiries',
     form_desc: 'Fill out the form and we will get in touch with you shortly.',
     form_name: 'Full name <span class="req">*</span>',
     form_name_ph: 'e.g. John Doe',
@@ -169,7 +169,7 @@ const translations = {
     form_subject: 'Subject of inquiry',
     form_opt0: '— Select an area —',
     form_opt1: 'High-level Economic Consulting',
-    form_opt2: 'Sector Intelligence',
+    form_opt2: 'Market Intelligence',
     form_opt3: 'Critical Monitoring',
     form_opt4: 'Other',
     form_msg: 'Message <span class="req">*</span>',
@@ -191,7 +191,7 @@ const translations = {
     ft_nav: 'Navigation',
     ft_serv: 'Services',
     ft_contact: 'Contact',
-    ft_copy: '&copy; 2026 AGPV Economic Advisors C.A. · All rights reserved',
+    ft_copy: '&copy; 2026 AGPV Asesores Económicos, C.A. · All rights reserved',
     ft_dev: 'Developed with <i class="fas fa-heart" style="color:#e11d48;"></i> in Venezuela'
   }
 };
